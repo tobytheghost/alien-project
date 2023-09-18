@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*:before,*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: monospace;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: unset;
+  color: #ffffff;
+  letter-spacing: 0.1rem;
+}
+
+.text-green-dark {
+  color: #011e00;
+}
+.bg-green-dark {
+  background-color: #011e00;
+}
+.border-green-dark {
+  border-color: #011e00;
+}
+
+.text-green-light {
+  color: #06fd62;
+}
+.bg-green-light {
+  background-color: #06fd62;
+}
+.border-green-light {
+  border-color: #06fd62;
+}
